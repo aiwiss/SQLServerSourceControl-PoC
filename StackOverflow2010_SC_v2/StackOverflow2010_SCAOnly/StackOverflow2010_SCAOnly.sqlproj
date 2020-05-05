@@ -7,7 +7,7 @@
     <Name>StackOverflow2010_SCAOnly</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>dbc6672b-cf79-4d87-8f1b-5580bc9211ec</ProjectGuid>
+    <ProjectGuid>{dbc6672b-cf79-4d87-8f1b-5580bc9211ec}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql150DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -33,6 +33,7 @@
     <GenerateSqlPackage>False</GenerateSqlPackage>
     <MigrationOrdering>FilePath</MigrationOrdering>
     <EvaluateExecutionOrderOnImport>True</EvaluateExecutionOrderOnImport>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
   </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -164,6 +165,12 @@
     <Folder Include="Pre-Deployment\" />
     <Folder Include="Post-Deployment\" />
     <Folder Include="Migrations\" />
+    <Folder Include="Programmable Objects\" />
+    <Folder Include="Programmable Objects\dbo\" />
+    <Folder Include="Programmable Objects\dbo\Stored Procedures\" />
+    <Folder Include="Schema-Model\" />
+    <Folder Include="Schema-Model\dbo\" />
+    <Folder Include="Schema-Model\dbo\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\001_20200505-1518_aivarasjonikas.sql" />
