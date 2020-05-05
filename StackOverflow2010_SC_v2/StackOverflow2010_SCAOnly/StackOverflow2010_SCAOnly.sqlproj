@@ -167,9 +167,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Migrations\001_20200505-1518_aivarasjonikas.sql" />
+    <None Include="Migrations\002_20200505-1537_aivarasjonikas.sql" />
     <None Include="Pre-Deployment\01_Create_Database.sql" />
     <None Include="Programmable Objects\dbo\Stored Procedures\DropIndexes.sql" />
     <None Include="Programmable Objects\dbo\Stored Procedures\TestProc.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\TestProc2.sql" />
     <None Include="Schema-Model\dbo\Tables\Badges.sql" />
     <None Include="Schema-Model\dbo\Tables\Comments.sql" />
     <None Include="Schema-Model\dbo\Tables\LinkTypes.sql" />
