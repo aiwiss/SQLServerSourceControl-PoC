@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <TargetDatabase>StackOverflow2010_1</TargetDatabase>
-    <TargetConnectionString>Data Source=localhost;Initial Catalog=StackOverflow2010_1;Integrated Security=True;Pooling=False;Encrypt=False;TrustServerCertificate=True;MultiSubnetFailover=False</TargetConnectionString>
+    <TargetDatabase>StackOverflow2010</TargetDatabase>
+    <TargetConnectionString>Data Source=localhost;Initial Catalog=StackOverflow2010;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;MultiSubnetFailover=False</TargetConnectionString>
     <StartupScript>(Blank)</StartupScript>
     <StartAction>StartNone</StartAction>
   </PropertyGroup>
